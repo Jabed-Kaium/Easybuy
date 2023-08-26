@@ -9,4 +9,4 @@ Technology used:
     <li>Bootstrap</li>
 </ul>
 
-[Click here to preview](https://jabed-kaium.github.io/Easybuy/)
+<a href="https://jabed-kaium.github.io/Easybuy/" target="_blank">Click here to preview</a>
