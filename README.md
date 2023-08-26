@@ -10,4 +10,4 @@ Technology used:
 </ul>
 
 
-[Click here to preview](https://jabed-kaium.github.io/Easybuy/){:target="_blank"} 
+[Click here to preview](https://jabed-kaium.github.io/Easybuy/)
