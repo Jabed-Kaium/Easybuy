@@ -1,0 +1,293 @@
+
+body {
+    font-family: "Montserrat";
+}
+
+/* Header */
+
+/* top-heading */
+.top-header {
+    background-color: #088178;
+    height: 1.875rem;
+}
+
+.top-text {
+    color: #fff;
+}
+
+.heading-link:hover {
+    color: #DBE2EF;
+}
+
+.heading-link:visited {
+    color: #000;
+}
+
+.top-text-left {
+    float: left;
+    padding-left: 10%;
+}
+
+.top-text-right {
+    float: right;
+    padding-right: 10%;
+}
+
+/* middle-heading */
+
+.logo {
+    display: inline-block;
+    padding: 2% 8%;
+}
+
+.cart-link {
+    float: right;
+    padding-top: 4%;
+    padding-right: 10%;
+}
+
+/* bottom-heading */
+
+.bottom-header a, .bottom-header a:visited {
+    color: #000;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.bottom-header a:hover {
+    color: #088178;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-weight: lighter;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Container */
+
+.container-fluid {
+    padding: 0 10%;
+}
+
+/* Links */
+
+.plain-link {
+    text-decoration: none;
+}
+
+
+/* Slide */
+
+.slide {
+    padding: 2% 10%;
+}
+
+.carousel-caption {
+    position: absolute;
+    z-index: 1;
+    display:table;
+    width:100%;
+    height:100%;
+}
+
+.absolute-div {
+    position: absolute;
+      top: 60%;
+      left: 5%;
+      right: auto;
+      bottom: 0;
+}
+
+.carousel-item {
+    position:relative;
+}
+
+.carousel-item h1 h4 {
+    text-align: left;
+}
+
+
+/* Featured Section */
+
+.featured-header {
+    font-family: "Montserrat";
+    padding: 0 8%;
+}
+
+.nav-item {
+    margin: 0 1%;
+}
+
+.featured-header .btn-outline {
+    border-radius: 10px;
+    margin: 2% 1%;
+    padding: 1% 2%;
+    background-color: #EEEEEE;
+}
+
+.featured-header .btn-outline:hover, .featured-header .active {
+    color: #088178;
+    background-color: #FDE1BD;
+    border: none;
+}
+
+.featured-product {
+    padding: 2% 15%;
+}
+
+.featured-card {
+    margin: 0 auto;
+    width: 15rem;
+}
+
+.featured-col {
+    padding: 2% 0;
+}
+
+.btn-outline {
+    color: #3F4E4F;
+    background-color: #ffffff;
+    border-color: #DCD7C9;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+.btn-outline:hover {
+    color: #000;
+    background-color: #CFFDE1;
+}
+
+/* Shoe-Gallery */
+
+#shoe-gallery {
+    padding-bottom: 5%;
+}
+
+.gallery-link {
+    position: relative;
+    padding: 2%;
+}
+
+.gallery-link:hover {
+    opacity: 0.7;
+}
+
+.gallery-pic-1 {
+    border-radius: 3%;
+    width: 100%;
+    height: auto;
+}
+
+.gallery-pic-2 {
+    border-radius: 3%;
+    width: 100%;
+    height: auto;
+    padding-top: 2%;
+}
+
+.gallery-pic-3 {
+    border-radius: 3%;
+    width: 100%;
+    height: auto;
+}
+
+#shoe-gallery h1 {
+    color: #fff;
+    font-family: "Allura";
+    text-align: center;
+    font-size: 3.5rem;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+
+/* Footer */
+
+#footer {
+    padding: 5% 0;
+}
+
+.links {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#footer a {
+    margin: 2% 0;
+}
+
+.contact-info, .follow-option {
+    padding: 5% 0;
+}
+
+.contact-info p, .follow-option {
+    margin: 5% 0;
+}
+
+#footer .fa {
+    margin-right: 2%;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#footer .fa:hover {
+    opacity: 0.7;
+    color: #fff;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: #fff;
+}
+
+.fa-instagram {
+    background: #e95950;
+    color: #fff;
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+    .contact-info p, .follow-option p {
+        text-align: center;
+    }
+
+    #footer .logo {
+        margin: 0 20%;
+    }
+
+    #footer .links {
+        margin: 5% auto;
+    }
+
+    #footer a {
+        text-align: center;
+    }
+
+    .social-links {
+        margin: 0 37%;
+    }
+}
